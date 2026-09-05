@@ -72,10 +72,6 @@ class WhatsAppDashboardSender:
 
 ⚠️ CALENDAR ALERTS:
 {self.get_calendar_alerts()}
-
----
-Run dashboard: python GET_TRADING_SIGNALS.py
-GitHub: https://github.com/rinardi/market-research
         """
 
         return message.strip()
@@ -133,14 +129,21 @@ Status: 🟡 MIXED (Risk-off)
 
     def get_calendar_alerts(self):
         """Get economic calendar alerts"""
-        return """
-🇺🇸 FED DECISION - Wed 2PM
+        from datetime import datetime, timedelta
+
+        today = datetime.now()
+        wed = today + timedelta(days=(2-today.weekday()) % 7)
+        thu = today + timedelta(days=(3-today.weekday()) % 7)
+        fri = today + timedelta(days=(4-today.weekday()) % 7)
+
+        return f"""
+🇺🇸 FED DECISION - {wed.strftime('%a %b %d')} 2:00 PM
    🔴 MAJOR - Reduce 24-48h before
 
-🇺🇸 CPI DATA - Thu 8:30AM
+🇺🇸 CPI DATA - {thu.strftime('%a %b %d')} 8:30 AM
    🔴 MAJOR - Avoid 24h before/after
 
-🇺🇸 JOBS REPORT - Fri 8:30AM
+🇺🇸 JOBS REPORT - {fri.strftime('%a %b %d')} 8:30 AM
    🔴 MAJOR - Avoid 1h before/after
         """.strip()
 
