@@ -33,7 +33,7 @@ WHATSAPP_WEB_CONFIG = {
 TELEGRAM_CONFIG = {
     "bot_token": "8633201263:AAExp3-d6Sxp-9TWCBd9wCioj3QwwfXO0Fo",
     "chat_id": "827341057",
-    "use_markdown": True,
+    "use_markdown": False,
 }
 
 
@@ -74,7 +74,7 @@ class WhatsAppDashboardSender:
 {self.get_calendar_alerts()}
 
 📊 VIEW FULL DASHBOARD:
-https://raw.githubusercontent.com/rinardi/market-research/main/dashboard.html
+https://raw.githubusercontent.com/rinardi/market-research/main/dashboard_full.html
         """
 
         return message.strip()
