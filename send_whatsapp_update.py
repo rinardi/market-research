@@ -8,7 +8,7 @@ from datetime import datetime
 from pathlib import Path
 
 # ⚠️ SETUP OPTIONS (Choose one below)
-WHATSAPP_METHOD = "whatsapp_web"  # Options: "twilio", "whatsapp_web", "telegram"
+WHATSAPP_METHOD = "telegram"  # Options: "twilio", "whatsapp_web", "telegram"
 
 # ===== OPTION 1: TWILIO (Recommended for production) =====
 # Sign up at: https://www.twilio.com (free trial: $15)
@@ -31,8 +31,8 @@ WHATSAPP_WEB_CONFIG = {
 # Get your bot token from: @BotFather on Telegram
 # Get chat ID from: https://api.telegram.org/bot<TOKEN>/getUpdates
 TELEGRAM_CONFIG = {
-    "bot_token": "YOUR_BOT_TOKEN",
-    "chat_id": "YOUR_CHAT_ID",
+    "bot_token": "8633201263:AAExp3-d6Sxp-9TWCBd9wCioj3QwwfXO0Fo",
+    "chat_id": "827341057",
     "use_markdown": True,
 }
 
