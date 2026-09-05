@@ -23,7 +23,7 @@ TWILIO_CONFIG = {
 # ===== OPTION 2: WHATSAPP WEB (Via Selenium - Free but less reliable) =====
 # pip install pywhatkit selenium
 WHATSAPP_WEB_CONFIG = {
-    "phone_number": "628117707744",  # Format: country_code + number (no + sign)
+    "phone_number": "62811170774",  # Format: country_code + number (no + sign)
     "message_delay": 15,  # seconds
 }
 
