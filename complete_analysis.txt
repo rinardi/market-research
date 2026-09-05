@@ -1,0 +1,188 @@
+
+================================================================================================================================================================
+🎯 COMPLETE SWING TRADE ANALYSIS - WITH MACRO CORRELATION FRAMEWORK
+================================================================================================================================================================
+Generated: 2026-09-05 09:29:57
+
+
+================================================================================================================================================================
+💰 MACRO CORRELATION FRAMEWORK
+================================================================================================================================================================
+
+KEY MACRO INDICATORS & THEIR IMPACT ON SIGNALS:
+
+1️⃣  US DOLLAR INDEX (DXY)
+   ↑ STRONG DOLLAR → ✅ Favor USD pairs (USD-JPY, GBP-USD) | ❌ Avoid commodities
+   ↓ WEAK DOLLAR   → ✅ Favor commodities (Gold, Oil)      | ❌ Avoid USD longs
+
+2️⃣  US 10-YEAR TREASURY YIELD
+   ↑ RISING YIELDS → ✅ Favor USD strength | ⚠️  Caution on equities | ❌ Avoid commodities
+   ↓ FALLING YIELDS → ✅ Favor risk-on      | ✅ Stocks rally         | ✅ Commodities rally
+
+3️⃣  YIELD CURVE (2Y vs 10Y)
+   NORMAL (2Y < 10Y)   → ✅ Healthy economy, favor BUY signals
+   INVERTED (2Y > 10Y) → ⚠️  Recession risk, tighten stops
+
+SIGNAL CORRELATION TABLE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Asset              | Favorable Macro          | Unfavorable Macro      | Position Advice
+───────────────────────────────────────────────────────────────────────────────────────────────────
+✅ NASDAQ-100     | DXY ↓ + Yield ↓         | DXY ↑ + Yield ↑       | Risk-on asset (growth)
+✅ S&P 500        | DXY ↓ + Yield ↓         | DXY ↑ + Yield ↑       | Risk-on asset (growth)
+✅ Bitcoin        | DXY ↓ + Yield ↓         | DXY ↑ + Yield ↑       | Risk-on asset (speculative)
+✅ Oil (WTI)      | DXY ↓                   | DXY ↑                 | Commodity (USD inverse)
+✅ Gold (Spot)    | DXY ↓ + Yield ↓         | DXY ↑ + Yield ↑       | Safe-haven asset
+✅ USD-JPY        | DXY ↑ + Yield ↑         | DXY ↓ + Yield ↓       | Carry trade (BoJ easing)
+❌ EUR-USD        | Weak Euro + ECB ↓       | Strong Euro + ECB ↑   | Policy-driven
+❌ GBP-USD        | Weak Pound + BoE ↓      | Strong Pound + BoE ↑  | Policy-driven
+
+HOW TO USE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 SIGNAL FILTERING RULES:
+
+Before entering ANY trade:
+1. Check DXY trend (strong or weak?)
+2. Check 10Y yield direction (rising or falling?)
+3. Look up asset correlation in table above
+4. If signal aligns with macro → FULL SIZE ✅
+5. If signal contradicts macro → HALF SIZE ⚠️
+6. If strongly contradicts → SKIP TRADE ❌
+
+EXAMPLE SCENARIOS:
+
+Scenario 1: DXY STRONG + YIELD RISING (Risk-off)
+─────────────────────────────────────────
+Market: USD strength, growth concerns
+✅ TAKE:  USD-JPY BUY, GBP-USD BUY (full size)
+⚠️ CAUTION: NASDAQ BUY, Bitcoin BUY (half size only)
+❌ SKIP:  Oil BUY, Gold BUY (avoid)
+✅ TAKE:  Gold SELL (selling commodities)
+
+Scenario 2: DXY WEAK + YIELD FALLING (Risk-on)
+─────────────────────────────────────────
+Market: USD weakness, growth optimism
+✅ TAKE:  Oil BUY, Gold BUY (full size)
+✅ TAKE:  NASDAQ BUY, Bitcoin BUY (full size)
+⚠️ CAUTION: USD-JPY BUY (half size only)
+❌ SKIP:  USD-JPY BUY, GBP-USD BUY (avoid)
+✅ TAKE:  USD-JPY SELL (short carry trades)
+
+ECONOMIC CALENDAR EVENTS & IMPACT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Event                   | Frequency | Impact        | Action
+──────────────────────────────────────────────────────────────────────────────────────────────
+🇺🇸 Fed Decision        | 6 weeks   | MAJOR         | ⚠️  Reduce/close 24-48h before
+🇺🇸 CPI Inflation       | Monthly   | MAJOR         | ⚠️  Avoid 24h before/after
+🇺🇸 NFP Jobs            | Monthly   | MAJOR         | ⚠️  Avoid 1h before/after
+🇺🇸 FOMC Minutes        | Monthly   | MEDIUM        | Watch for hawkish/dovish
+🇪🇺 ECB Decision        | 6 weeks   | MEDIUM        | EUR pairs risk ⚠️
+🇬🇧 BoE Decision        | 6 weeks   | MEDIUM        | GBP pairs risk ⚠️
+🇯🇵 BoJ Decision        | 7-8 weeks | MEDIUM        | USD-JPY major moves
+⛽ OPEC Announcement     | Quarterly | MEDIUM        | Oil volatility spike
+⛽ Oil Inventory         | Weekly    | SMALL-MEDIUM  | Oil trading catalyst
+
+MACRO CALENDAR CHECK:
+Before opening EACH position, verify:
+✓ No major event in next 24-48 hours
+✓ Current macro environment aligns with signal
+✓ Yield curve is not inverted (recession warning)
+✓ DXY and yields not at extreme levels (reversal risk)
+
+POSITION MANAGEMENT BY MACRO:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Normal Conditions (No major macro divergence):
+• Position size: 100% (full risk/reward setup)
+• Hold time: 3-7 days (full swing trade)
+• Stops: -2 to -3% standard
+
+Macro Contradicting Signal:
+• Position size: 50% (half risk/reward)
+• Hold time: 2-3 days (quick win only)
+• Stops: -1.5% (tighter, exit early)
+
+Extreme Macro (Major divergence):
+• Position size: 0% (SKIP TRADE)
+• Alternative: Wait for macro to align
+• Or wait 24-48 hours after calendar event
+
+
+================================================================================================================================================================
+📋 ALL 35 TRADING SIGNALS (With Macro Context Notes)
+================================================================================================================================================================
+
+ # |   Type   |       Asset        |        Price |   RSI |   Macro Align  
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 1 |  BUY ✅   |      Bitcoin       | $   92553.59 |    45 |     Risk-on    
+ 2 |  SELL ❌  |     Dow_Jones      | $   52759.21 |    53 |     Risk-on    
+ 3 |  BUY ✅   |     Dow_Jones      | $   46669.88 |    47 |     Risk-on    
+ 4 |  BUY ✅   |     NASDAQ-100     | $   25913.90 |    48 |     Risk-on    
+ 5 |  BUY ✅   |     NASDAQ-100     | $   22017.85 |    44 |     Risk-on    
+ 6 |  BUY ✅   |     NASDAQ-100     | $   21996.34 |    45 |     Risk-on    
+ 7 |  SELL ❌  |      S&P_500       | $    7641.16 |    62 |     Risk-on    
+ 8 |  BUY ✅   |      S&P_500       | $    6616.85 |    44 |     Risk-on    
+ 9 |  BUY ✅   |      S&P_500       | $    6611.83 |    45 |     Risk-on    
+10 |  BUY ✅   |    Gold_(Spot)     | $    4749.50 |    45 |   USD-inverse  
+11 |  BUY ✅   |    Gold_(Spot)     | $    4699.80 |    40 |   USD-inverse  
+12 |  SELL ❌  |    Gold_(Spot)     | $    4622.50 |    51 |   USD-inverse  
+13 |  SELL ❌  |    Gold_(Spot)     | $    4521.00 |    50 |   USD-inverse  
+14 |  SELL ❌  |    Gold_(Spot)     | $    4431.10 |    54 |   USD-inverse  
+15 |  SELL ❌  |    Gold_(Spot)     | $    4366.30 |    50 |   USD-inverse  
+16 |  SELL ❌  |    Gold_(Spot)     | $    4325.60 |    60 |   USD-inverse  
+17 |  SELL ❌  |    Gold_(Spot)     | $    4314.40 |    53 |   USD-inverse  
+18 |  SELL ❌  |    Gold_(Spot)     | $    4001.90 |    51 |   USD-inverse  
+19 |  SELL ❌  |    Gold_(Spot)     | $    4001.30 |    51 |   USD-inverse  
+20 |  SELL ❌  |    Gold_(Spot)     | $    3983.70 |    52 |   USD-inverse  
+21 |  BUY ✅   |      USD-JPY       | $     159.04 |    43 |   USD-depends  
+22 |  BUY ✅   |      USD-JPY       | $     158.86 |    46 |   USD-depends  
+23 |  BUY ✅   |      USD-JPY       | $     158.84 |    47 |   USD-depends  
+24 |  BUY ✅   |     Oil_(WTI)      | $      61.50 |    49 |   USD-inverse  
+25 |  BUY ✅   |     Oil_(WTI)      | $      61.31 |    48 |   USD-inverse  
+26 |  BUY ✅   |     Oil_(WTI)      | $      60.48 |    46 |   USD-inverse  
+27 |  SELL ❌  |      GBP-USD       | $       1.35 |    54 |   USD-depends  
+28 |  SELL ❌  |      GBP-USD       | $       1.35 |    57 |   USD-depends  
+29 |  SELL ❌  |      GBP-USD       | $       1.35 |    52 |   USD-depends  
+30 |  BUY ✅   |      GBP-USD       | $       1.33 |    40 |   USD-depends  
+31 |  BUY ✅   |      EUR-USD       | $       1.16 |    49 |   USD-depends  
+32 |  BUY ✅   |      EUR-USD       | $       1.16 |    50 |   USD-depends  
+33 |  SELL ❌  |      EUR-USD       | $       1.16 |    60 |   USD-depends  
+34 |  SELL ❌  |      EUR-USD       | $       1.16 |    57 |   USD-depends  
+35 |  SELL ❌  |      EUR-USD       | $       1.16 |    57 |   USD-depends  
+
+================================================================================================================================================================
+✅ NEXT STEPS
+================================================================================================================================================================
+
+1. Check current macro environment:
+   - Go to tradingeconomics.com or investing.com
+   - Find DXY (US Dollar Index)
+   - Find 10-year Treasury yield (^TNX)
+   - Note if trending up/down
+
+2. Filter signals using macro alignment table above
+   - If DXY rising → Focus on USD pairs & avoid commodities
+   - If DXY falling → Focus on commodities & avoid USD pairs
+
+3. Check economic calendar:
+   - Avoid trading 24-48 hours before/after major events
+   - Don't hold through Fed decisions, CPI, jobs data
+
+4. Execute your top-aligned signals with full position size
+
+5. For misaligned signals:
+   - Take 50% position only (if at all)
+   - Use tighter stops (-1.5% instead of -3%)
+   - Exit quickly at first target (don't hold 3-7 days)
+
+6. Track:
+   - Which macro environment gave best results
+   - Which assets performed best in current macro
+   - Adjust strategy based on macro regime
+
+================================================================================================================================================================
+✅ ANALYSIS COMPLETE - READY FOR TRADING WITH MACRO CONTEXT
+================================================================================================================================================================
+

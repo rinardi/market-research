@@ -1,0 +1,416 @@
+
+[*********************100%***********************]  1 of 1 completed
+
+[*********************100%***********************]  1 of 1 completed
+
+[*********************100%***********************]  1 of 1 completed
+
+[*********************100%***********************]  1 of 1 completed
+
+[*********************100%***********************]  1 of 1 completed
+
+============================================================
+HIGH VOLATILITY ASSETS AVAILABLE
+============================================================
+
+STOCK INDICES:
+  ^GSPC      = S&P 500
+  ^IXIC      = NASDAQ
+  ^DJI       = Dow Jones
+  ^FTSE      = FTSE 100
+  ^N225      = Nikkei 225
+  ^HSIO      = Hang Seng
+
+COMMODITIES:
+  GC=F       = Gold (Spot)
+  CL=F       = Oil (WTI)
+  NG=F       = Natural Gas
+  SI=F       = Silver
+
+FOREX (High Volatility):
+  EURUSD=X   = EUR/USD
+  GBPUSD=X   = GBP/USD
+  USDJPY=X   = USD/JPY
+  AUDUSD=X   = AUD/USD
+  NZDUSD=X   = NZD/USD
+  USDCAD=X   = USD/CAD
+  USDCHF=X   = USD/CHF
+  GBPJPY=X   = GBP/JPY
+  EURJPY=X   = EUR/JPY
+  AUDJPY=X   = AUD/JPY
+
+CRYPTO:
+  BTC-USD    = Bitcoin
+============================================================
+
+
+============================================================
+STARTING HIGH VOLATILITY ANALYSIS
+============================================================
+
+============================================================
+STOCK INDICES (High Volatility Only)
+============================================================
+
+============================================================
+ANALYZING: NASDAQ-100 (^IXIC) - D1 Daily
+============================================================
+Fetching NASDAQ (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] NASDAQ saved (252 rows)
+[OK] Loaded 252 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+
+==================================================
+BACKTEST RESULTS
+==================================================
+Initial Capital...............      10000
+Final Capital.................   11948.10
+Total Return %................      19.48
+Win Rate %....................          0
+Total Trades..................          0
+Average Win %.................          0
+Average Loss %................          0
+Profit Factor.................          0
+==================================================
+
+[OK] Saved analysis to data/processed/NASDAQ-100_analyzed.csv
+[OK] Saved trades to results/NASDAQ-100_trades.csv
+
+Last 5 Signals:
+Price              Close        RSI        MACD Signal
+Ticker             ^IXIC                              
+Date                                                  
+2026-04-06  21996.339844  45.188099 -281.709774      1
+2026-04-07  22017.849609  43.992078 -241.091110      1
+2026-08-03  25913.900391  47.655161 -183.869425      1
+
+============================================================
+ANALYZING: S&P 500 (^GSPC) - D1 Daily
+============================================================
+Fetching S&P 500 (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] S&P 500 saved (252 rows)
+[OK] Loaded 252 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+
+==================================================
+BACKTEST RESULTS
+==================================================
+Initial Capital...............      10000
+Final Capital.................   11478.96
+Total Return %................      14.79
+Win Rate %....................     100.00
+Total Trades..................          1
+Average Win %.................      15.57
+Average Loss %................          0
+Profit Factor.................          0
+==================================================
+
+[OK] Saved analysis to data/processed/S&P_500_analyzed.csv
+[OK] Saved trades to results/S&P_500_trades.csv
+
+Last 5 Signals:
+Price             Close        RSI       MACD Signal
+Ticker            ^GSPC                             
+Date                                                
+2026-04-06  6611.830078  45.010208 -73.756567      1
+2026-04-07  6616.850098  44.267569 -63.802390      1
+2026-08-20  7641.160156  62.381840  60.556645     -1
+
+============================================================
+ANALYZING: Dow Jones (^DJI) - D1 Daily
+============================================================
+Fetching Dow Jones (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] Dow Jones saved (252 rows)
+[OK] Loaded 252 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+
+==================================================
+BACKTEST RESULTS
+==================================================
+Initial Capital...............      10000
+Final Capital.................   11239.53
+Total Return %................      12.40
+Win Rate %....................     100.00
+Total Trades..................          1
+Average Win %.................      13.05
+Average Loss %................          0
+Profit Factor.................          0
+==================================================
+
+[OK] Saved analysis to data/processed/Dow_Jones_analyzed.csv
+[OK] Saved trades to results/Dow_Jones_trades.csv
+
+Last 5 Signals:
+Price              Close        RSI        MACD Signal
+Ticker              ^DJI                              
+Date                                                  
+2026-04-06  46669.878906  47.426037 -539.184062      1
+2026-08-20  52759.210938  53.314232  289.793411     -1
+
+============================================================
+COMMODITIES (High Volatility)
+============================================================
+
+============================================================
+ANALYZING: Gold (Spot) (GC=F) - D1 Daily
+============================================================
+Fetching Gold (Spot) (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] Gold (Spot) saved (252 rows)
+[OK] Loaded 252 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+
+==================================================
+BACKTEST RESULTS
+==================================================
+Initial Capital...............      10000
+Final Capital.................    9542.95
+Total Return %................      -4.57
+Win Rate %....................       0.00
+Total Trades..................          1
+Average Win %.................          0
+Average Loss %................      -4.81
+Profit Factor.................       0.00
+==================================================
+
+[OK] Saved analysis to data/processed/Gold_(Spot)_analyzed.csv
+[OK] Saved trades to results/Gold_(Spot)_trades.csv
+
+Last 5 Signals:
+Price             Close        RSI       MACD Signal
+Ticker             GC=F                             
+Date                                                
+2026-04-08  4749.500000  45.167956 -79.652754      1
+2026-05-07  4699.799805  40.017680 -38.735223      1
+2026-05-22  4521.000000  50.147783 -47.695920     -1
+2026-08-31  4431.100098  53.512501  98.161688     -1
+2026-09-02  4366.299805  50.188817  65.055624     -1
+
+============================================================
+ANALYZING: Oil (WTI) (CL=F) - D1 Daily
+============================================================
+Fetching Oil (WTI) (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] Oil (WTI) saved (252 rows)
+[OK] Loaded 252 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+
+==================================================
+BACKTEST RESULTS
+==================================================
+Initial Capital...............      10000
+Final Capital.................   14590.89
+Total Return %................      45.91
+Win Rate %....................          0
+Total Trades..................          0
+Average Win %.................          0
+Average Loss %................          0
+Profit Factor.................          0
+==================================================
+
+[OK] Saved analysis to data/processed/Oil_(WTI)_analyzed.csv
+[OK] Saved trades to results/Oil_(WTI)_trades.csv
+
+Last 5 Signals:
+Price           Close        RSI      MACD Signal
+Ticker           CL=F                            
+Date                                             
+2025-10-24  61.500000  49.194239 -0.754368      1
+2025-10-27  61.310001  48.241214 -0.575163      1
+
+[*********************100%***********************]  1 of 1 completed
+
+[*********************100%***********************]  1 of 1 completed
+
+[*********************100%***********************]  1 of 1 completed
+
+[*********************100%***********************]  1 of 1 completed
+
+[*********************100%***********************]  1 of 1 completed
+2025-10-29  60.480000  45.548838 -0.445843      1
+
+============================================================
+FOREX (High Volatility Pairs)
+============================================================
+
+============================================================
+ANALYZING: GBP/USD (GBPUSD=X) - D1 Daily
+============================================================
+Fetching GBP/USD (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] GBP/USD saved (259 rows)
+[OK] Loaded 259 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+
+==================================================
+BACKTEST RESULTS
+==================================================
+Initial Capital...............      10000
+Final Capital.................   10143.66
+Total Return %................       1.44
+Win Rate %....................     100.00
+Total Trades..................          1
+Average Win %.................       1.51
+Average Loss %................          0
+Profit Factor.................          0
+==================================================
+
+[OK] Saved analysis to data/processed/GBP-USD_analyzed.csv
+[OK] Saved trades to results/GBP-USD_trades.csv
+
+Last 5 Signals:
+Price          Close        RSI      MACD Signal
+Ticker      GBPUSD=X                            
+Date                                            
+2026-02-06  1.352082  57.130374  0.006408     -1
+2026-07-03  1.333870  40.314310 -0.004374      1
+2026-08-31  1.354041  54.258104  0.005068     -1
+2026-09-02  1.351534  52.350101  0.003697     -1
+
+============================================================
+ANALYZING: EUR/USD (EURUSD=X) - D1 Daily
+============================================================
+Fetching EUR/USD (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] EUR/USD saved (259 rows)
+[OK] Loaded 259 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+
+==================================================
+BACKTEST RESULTS
+==================================================
+Initial Capital...............      10000
+Final Capital.................    9985.14
+Total Return %................      -0.15
+Win Rate %....................       0.00
+Total Trades..................          1
+Average Win %.................          0
+Average Loss %................      -0.16
+Profit Factor.................       0.00
+==================================================
+
+[OK] Saved analysis to data/processed/EUR-USD_analyzed.csv
+[OK] Saved trades to results/EUR-USD_trades.csv
+
+Last 5 Signals:
+Price          Close        RSI      MACD Signal
+Ticker      EURUSD=X                            
+Date                                            
+2026-03-24  1.160712  49.666878 -0.005985      1
+2026-03-25  1.161467  48.608861 -0.005181      1
+2026-08-31  1.158896  57.198287  0.004534     -1
+2026-09-02  1.159555  59.927309  0.003639     -1
+2026-09-03  1.158534  57.463268  0.003110     -1
+
+============================================================
+ANALYZING: USD/JPY (USDJPY=X) - D1 Daily
+============================================================
+Fetching USD/JPY (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] USD/JPY saved (259 rows)
+[OK] Loaded 259 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+
+==================================================
+BACKTEST RESULTS
+==================================================
+Initial Capital...............      10000
+Final Capital.................    9843.13
+Total Return %................      -1.57
+Win Rate %....................          0
+Total Trades..................          0
+Average Win %.................          0
+Average Loss %................          0
+Profit Factor.................          0
+==================================================
+
+[OK] Saved analysis to data/processed/USD-JPY_analyzed.csv
+[OK] Saved trades to results/USD-JPY_trades.csv
+
+Last 5 Signals:
+Price            Close        RSI      MACD Signal
+Ticker        USDJPY=X                            
+Date                                              
+2026-05-18  158.843994  46.982718 -0.230707      1
+2026-05-19  158.860992  45.848810 -0.141638      1
+2026-05-20  159.035004  42.695507 -0.056360      1
+
+============================================================
+ANALYZING: AUD/USD (AUDUSD=X) - D1 Daily
+============================================================
+Fetching AUD/USD (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] AUD/USD saved (259 rows)
+[OK] Loaded 259 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+[INFO] No trades to report
+[OK] Saved analysis to data/processed/AUD-USD_analyzed.csv
+[OK] Saved trades to results/AUD-USD_trades.csv
+
+============================================================
+CRYPTOCURRENCY
+============================================================
+
+============================================================
+ANALYZING: Bitcoin (BTC-USD) - D1 Daily
+============================================================
+Fetching Bitcoin (D1) - Last 365 days (2025-09-05 to 2026-09-05)...
+[OK] Bitcoin saved (365 rows)
+[OK] Loaded 365 candles
+Generating technical indicators...
+[OK] Generated features
+Running backtest (initial capital: $10,000)...
+
+==================================================
+BACKTEST RESULTS
+==================================================
+Initial Capital...............      10000
+Final Capital.................    8670.38
+Total Return %................     -13.30
+Win Rate %....................          0
+Total Trades..................          0
+Average Win %.................          0
+Average Loss %................          0
+Profit Factor.................          0
+==================================================
+
+[OK] Saved analysis to data/processed/Bitcoin_analyzed.csv
+[OK] Saved trades to results/Bitcoin_trades.csv
+
+Last 5 Signals:
+Price             Close        RSI         MACD Signal
+Ticker          BTC-USD                               
+Date                                                  
+2026-01-19  92553.59375  45.390137  1250.333557      1
+
+============================================================
+ANALYSIS COMPLETE - HIGH VOLATILITY ASSETS
+============================================================
+
+Analyzed:
+  3 Stock Indices
+  2 Commodities
+  4 Forex Pairs
+  1 Cryptocurrency (Bitcoin)
+
+Total Markets: 10
+
+Results saved to:
+  data/processed/   (analyzed data with indicators)
+  results/          (trades & performance metrics)
+
+============================================================
+READY FOR TRADING!
+============================================================
