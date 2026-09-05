@@ -72,6 +72,9 @@ class WhatsAppDashboardSender:
 
 ⚠️ CALENDAR ALERTS:
 {self.get_calendar_alerts()}
+
+📊 VIEW FULL DASHBOARD:
+https://github.com/rinardi/market-research/blob/main/dashboard.html
         """
 
         return message.strip()
