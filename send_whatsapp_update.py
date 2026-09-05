@@ -74,7 +74,7 @@ class WhatsAppDashboardSender:
 {self.get_calendar_alerts()}
 
 📊 VIEW FULL DASHBOARD:
-https://github.com/rinardi/market-research/blob/main/dashboard.html
+https://rinardi.github.io/market-research/dashboard.html
         """
 
         return message.strip()
